@@ -19,6 +19,13 @@ namespace COMP003A.Assignment5
         {
             Console.WriteLine(new string('*', 50));
         }
+        /// <summary>
+        /// Outputs 50 asterisks in the console.
+        /// </summary>
+        static void PrintSeparator()
+        {
+            Console.WriteLine("**************************************************");
+        }
 
 
     }
