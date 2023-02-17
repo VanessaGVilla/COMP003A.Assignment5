@@ -15,7 +15,10 @@ namespace COMP003A.Assignment5
             PrintSeparator("Separator with string parameter");
             IsoscelesTriangleBuilder('*', 5);
         }
-
+        static void PrintSeparator()
+        {
+            Console.WriteLine(new string('*', 50));
+        }
 
 
     }
