@@ -44,18 +44,27 @@ namespace COMP003A.Assignment5
         static void IsoscelesTriangleBuilder(char inputCharacter, int size)
         {
             // increasing triangle
-            for (int i = 1; i <= size; i++)
+            for (int i = 0; i < size; i++)
             {
-                string line = new string(inputCharacter, i);
-                Console.WriteLine(line);
+               output += inputCharacter;
+               Console.WriteLine(output);
+                //Console.WriteLine("".PadRight(i, inputcharacter));
             }
             // decreasing triangle
-            for (int i = size - 1; i >= 1; i--)
+            for (int i = size - 1; i > 0; i--)
+        
             {
-                string line = new string(inputCharacter, i);
-                Console.WriteLine(line);
+               output = output.Substring(o, i)
+                Console.WriteLine(output);
             }
         }
+       
+       static int AgeCalculator(int year)
+       {
+          return DateTime.Now.Year - year;
+          
+       }
+       
     }
 }
 
